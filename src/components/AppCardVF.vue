@@ -16,6 +16,8 @@ export default {
         </div>
     </div>
 </template>
-<style lang="">
-    
+<style lang="scss">
+    img{
+        border-radius: 3px 3px 0px 0px,
+    }
 </style>

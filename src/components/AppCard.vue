@@ -8,7 +8,7 @@ export default {
         return{
             thumbCards: [
                 {
-                    img: '../../src/assets/best-places-300x200.webp',
+                    img: '../../src/assets/best-places.webp',
                     title: 'Places For a Road Trip',
                     text: 'December 26, 2022'
                 },
@@ -59,7 +59,7 @@ export default {
 </script>
 <template lang="">
   <div class="thumb" >
-    <div class="container_card d-flex justify-content-around">
+    <div class="container_card d-flex">
             <div class="cards m-2" v-for="(item, index) in thumbCards" :key="index">
                     <AppCardVF :url="item.img" :title="item.title" :text="item.text" />
                 </div>
@@ -68,9 +68,7 @@ export default {
 </template>
 <style lang="scss" scoped>
 
-.cards{
-    border-radius: 5px;
-}
+
 .thumb {
     overflow-x: scroll;
     margin: 1em 1em;
