@@ -8,62 +8,47 @@ export default {
         return{
             thumbCards: [
                 {
-                    img: '../assets/best-places-300x200.webp',
+                    img: '../../src/assets/best-places-300x200.webp',
                     title: 'Places For a Road Trip',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
-                    title: 'Music The Love Of My Life',
-                    text: 'December 26, 2022'
-                },
-                {
-                    img: '',
+                    img: '../../src/assets/anime-fashion.webp',
                     title: 'Fashion Trend Now A Days',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
+                    img: '../../src/assets/rice-ball.webp',
                     title: 'Hygenic Receipe To Prepare Rice',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
-                    title: 'The Best Time To Have A Meal',
-                    text: 'December 26, 2022'
-                },
-                {
-                    img: '',
+                    img: '../../src/assets/healthy-foods.webp',
                     title: 'The Best Healthy Foods In 2022',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
+                    img: '../../src/assets/winter.webp',
                     title: 'The Best Winter Outfits',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
-                    title: 'Beginner Photographers Mistakes',
+                    img: '../../src/assets/photographers-mistakes.webp',
+                    title: 'Beginner Photographer\'s Mistakes',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
-                    title: 'Live Ideas You Might Be Anime',
-                    text: 'December 26, 2022'
-                },
-                {
-                    img: '',
+                    img: '../../src/assets/visit-france.webp',
                     title: 'Reasons To Visit France',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
+                    img: '../../src/assets/travel-alone.webp',
                     title: 'Travelling Alone Is Awesome',
                     text: 'December 26, 2022'
                 },
                 {
-                    img: '',
+                    img: '../../src/assets/success-story.webp',
                     title: 'The best Succes Stories',
                     text: 'December 26, 2022'
                 },
@@ -74,7 +59,7 @@ export default {
 </script>
 <template lang="">
   <div class="thumb" >
-    <div class="container_card d-flex flex-wrap justify-content-around">
+    <div class="container_card d-flex justify-content-around">
             <div class="cards m-2" v-for="(item, index) in thumbCards" :key="index">
                     <AppCardVF :url="item.img" :title="item.title" :text="item.text" />
                 </div>
@@ -84,14 +69,12 @@ export default {
 <style lang="scss" scoped>
 
 .cards{
-    width: calc(100% / 4);
-    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 .thumb {
-    border: 1px solid black;
+    overflow-x: scroll;
     margin: 1em 1em;
     padding: 1em;
-    border: 1px solid black;
 
     h4 {
         text-transform: capitalize;
@@ -99,8 +82,5 @@ export default {
         color: white;
     }
 
-    img {
-        box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.5);
-    }
 }
 </style>
