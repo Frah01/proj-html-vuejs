@@ -1,25 +1,32 @@
 <script>
 import AppNavBar from './AppNavbar.vue';
+import AppTopbar from './AppTopbar.vue';
 export default {
     components:{
         AppNavBar,
+        AppTopbar,
     },
     data(){
         return{
             menuNavBar: [
                 {
+                    icon: '<i class="fa-solid fa-house-chimney"></i>',
                     label: 'Home'
                 },
                 {
+                    icon: '<i class="fa-solid fa-house-chimney"></i>',
                     label: 'Lifestile'
                 },
                 {
+                    icon: '<i class="fa-solid fa-house-chimney"></i>',
                     label: 'Stories'
                 },
                 {
+                    icon: '<i class="fa-solid fa-house-chimney"></i>',
                     label: 'Pages'
                 },
                 {
+                    icon: '<i class="fa-solid fa-house-chimney"></i>',
                     label: 'About us'
                 },
 
@@ -30,28 +37,13 @@ export default {
 </script>
 <template lang="">
     <header>
-        <div class="container-fluid" >
-            <div class="row">
-                <div class="top-bar col-12">
-                    <div class="d-flex">
-                        <h5>NEWS UPDATES</h5>
-                        <h5>5:35</h5>
-                        <h5>THE BEST TIME TO HAVE A MEAL</h5>
-                    </div>
-                    <div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+        <AppTopbar />
         <AppNavBar :menuNavBar="menuNavBar"/>
     </header>
 </template>
 <style lang="scss">
 @use '../styles/general.scss' as*;
-    header{
-        height: 200px;
-        background-color: grey;
+
 
         .top-bar{
             background-color: rgba(191,29,46,255);
@@ -60,5 +52,8 @@ export default {
         h5{
             margin-left: 5px;
         }
-    }
+
+        .fa-brands{
+            margin-left: 10px;
+        }
 </style>

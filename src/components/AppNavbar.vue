@@ -7,11 +7,11 @@ export default {
 }
 </script>
 <template lang="">
-    <div class="container" >
+    <div class="container p-2" >
         <div class="row" >
             <div class="col-4">
                 <div class="d-flex justify-content-center">
-                    <h2>ciao</h2>
+                    <i class="fa-solid fa-bars fa-2x"></i>
                 </div>
             </div>
             <div class="col-4">
@@ -24,15 +24,13 @@ export default {
                         </li>
                     </ul>
                 </div>
-                
             </div>
             <div class="col-4">
-                <div class="d-flex justify-content-center">
-                    <h2>ciao</h2>
+                <div class="d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
                 </div>
             </div>
         </div>
-        
     </div>
 </template>
 <style lang="scss" scoped>
