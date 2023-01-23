@@ -70,8 +70,8 @@ export default {
 
 
 .thumb {
+    background-color: rgba(243,243,243,255);
     overflow-x: scroll;
-    margin: 1em 1em;
     padding: 1em;
 
     h4 {
