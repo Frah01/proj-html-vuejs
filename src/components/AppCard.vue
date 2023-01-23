@@ -68,6 +68,9 @@ export default {
 </template>
 <style lang="scss" scoped>
 
+.cards{
+    width: calc(100% / 4 - 14px);
+}
 
 .thumb {
     background-color: rgba(243,243,243,255);
