@@ -15,7 +15,7 @@ export default {
                 },
                 {
                     icon: '<i class="fa-solid fa-house-chimney"></i>',
-                    label: 'Lifestile'
+                    label: 'Lifestyle'
                 },
                 {
                     icon: '<i class="fa-solid fa-house-chimney"></i>',

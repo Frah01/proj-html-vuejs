@@ -8,7 +8,7 @@ export default {
         return{
             contactStarted: [
                 {
-                    label: 'Resuorces'
+                    label: 'Resources'
                 },
                 {
                     label: 'Tutorials'

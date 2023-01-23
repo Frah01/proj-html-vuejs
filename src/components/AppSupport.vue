@@ -15,7 +15,7 @@ export default {
             <h5>GET STARTED</h5>
             <ul>
                 <li v-for="(item,index) in contactStarted" :key="index">
-                    {{item.label}}
+                    <h5>{{item.label}}</h5>
                 </li>
             </ul>
         </div>
@@ -23,7 +23,7 @@ export default {
             <h5>ABOUT</h5>
             <ul>
                 <li v-for="(item,index) in contactAbout" :key="index">
-                    {{item.label}}
+                    <h5>{{item.label}}</h5>
                 </li>
             </ul>
         </div>
@@ -31,7 +31,7 @@ export default {
             <h5>FEATURES</h5>
             <ul>
                 <li v-for="(item,index) in contactFeatures" :key="index">
-                    {{item.label}}
+                    <h5>{{item.label}}</h5>
                 </li>
             </ul>
         </div>
@@ -39,7 +39,7 @@ export default {
             <h5>QUICK LINKS</h5>
             <ul>
                 <li v-for="(item,index) in contactLinks" :key="index">
-                    {{item.label}}
+                    <h5>{{item.label}}</h5>
                 </li>
             </ul>
         </div>
@@ -58,7 +58,7 @@ export default {
                 <img class="logo-footer" src="../assets/anime-whitelogo.png" alt="">
             </div>
             <div>
-                <a href="">© Anime Tech, Theme by Fra</a>
+                <a href="">© Anime Tech, Theme by Elsa la pazza</a>
             </div>
         </div>
     </div>
