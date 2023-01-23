@@ -8,7 +8,7 @@ export default {
 }
 </script>
 <template lang="">
-    <div class="card rounded-1 border-1  h-100 text-center">
+    <div class="card rounded-1 border-0  h-100 text-center">
         <img class="mb-3" :src="url" alt="#">
         <div class="h-100 d-flex flex-column justify-content-between">
             <h5 class="text-uppercase">{{ title }}</h5>
