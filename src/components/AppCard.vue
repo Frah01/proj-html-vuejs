@@ -8,7 +8,7 @@ export default {
         return{
             thumbCards: [
                 {
-                    img: '/best-places-300x200.webp',
+                    img: '../assets/best-places-300x200.webp',
                     title: 'Places For a Road Trip',
                     text: 'December 26, 2022'
                 },
@@ -76,7 +76,7 @@ export default {
   <div class="thumb" >
     <div class="container_card d-flex flex-wrap justify-content-around">
             <div class="cards m-2" v-for="(item, index) in thumbCards" :key="index">
-                    <AppCardVF :url="`../assets${item.img}`" :title="item.title" :text="item.text" />
+                    <AppCardVF :url="item.img" :title="item.title" :text="item.text" />
                 </div>
             </div>
   </div>
