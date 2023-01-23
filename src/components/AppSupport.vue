@@ -53,9 +53,12 @@ export default {
     </div>
     <hr class="text-white" >
     <div class="row">
-        <div class="col">
-            <div clas="d-flex justify-content-between" >
-                <img src="../" alt="">
+        <div class="col d-flex justify-content-between align-items-center">
+            <div >
+                <img class="logo-footer" src="../assets/anime-whitelogo.png" alt="">
+            </div>
+            <div>
+                <a href="">© Anime Tech, Theme by Fra</a>
             </div>
         </div>
     </div>
@@ -72,6 +75,15 @@ export default {
 
     h5{
         margin-left: 0;
+        color: white;
+    }
+
+    .logo-footer{
+        width: 230px;
+    }
+
+    a{
+        text-decoration: none;
         color: white;
     }
 
