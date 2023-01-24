@@ -63,7 +63,7 @@ export default {
     </div>
    </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../../styles/general.scss' as*;
 .backg-img{
         aspect-ratio: 500 / 333;
@@ -94,20 +94,20 @@ export default {
 
 
 .box{
+    display: flex;
 }
 
 
     #background-img-1{
         background-image: url('../../assets/success-story.webp');
-        
     }
     #background-img-2{
         background-image: url('../../assets/best-places.webp');
-        
+       
+
     }
     #background-img-3{
         background-image: url('../../assets/best-places.webp');
-        
     }
     #background-img-4{
         background-image: url('../../assets/success-story.webp');
