@@ -29,12 +29,12 @@ export default {
             <div class="row" >
                 <div class="col-6">
                     <div class="d-flex align-items-center justify-content-start" >
-                        <img class="anime-logo" src="../assets/anime-logo.webp" alt="">
+                        <img class="anime-logo" src="../../assets/anime-logo.webp" alt="">
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="d-flex align-items-center justify-content-center" >
-                        <img class="header-logo img-fluid" src="../assets/header-banner.webp" alt="">
+                        <img class="header-logo img-fluid" src="../../assets/header-banner.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ export default {
         <hr>
 </template>
 <style lang="scss">
-    @use '../styles/general.scss' as*;
+    @use '../../styles/general.scss' as*;
 
     .top-bar{
             background-color: rgba(191,29,46,255);

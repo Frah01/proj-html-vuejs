@@ -1,6 +1,6 @@
 <script>
-import AppNavBar from './AppNavbar.vue';
-import AppTopbar from './AppTopbar.vue';
+import AppNavBar from './elements/AppNavbar.vue';
+import AppTopbar from './elements/AppTopbar.vue';
 export default {
     components:{
         AppNavBar,
@@ -10,16 +10,51 @@ export default {
         return{
             menuNavBar: [
                 {
-                    icon: '<i class="fa-solid fa-house-chimney"></i>',
-                    label: 'Home'
+                    icon: `<i class="fa-solid fa-house-chimney"></i>`,
+                    label: 'Home',
+                    
                 },
                 {
                     icon: '<i class="fa-solid fa-house-chimney"></i>',
-                    label: 'Lifestyle'
+                    label: 'Lifestyle',
+                    details: [
+                    {
+                        img: '../../src/assets/best-places.webp',
+                        title: 'Places For a Road Trip',
+                        text: 'December 26, 2022'
+                    },
+                    {
+                        img: '../../src/assets/anime-fashion.webp',
+                        title: 'Fashion Trend Now A Days',
+                        text: 'December 26, 2022'
+                    },
+                    {
+                        img: '../../src/assets/rice-ball.webp',
+                        title: 'Hygenic Receipe To Prepare Rice',
+                        text: 'December 26, 2022'
+                    },
+                    ]
                 },
                 {
                     icon: '<i class="fa-solid fa-house-chimney"></i>',
-                    label: 'Stories'
+                    label: 'Stories',
+                    details: [
+                    {
+                        img: '../../src/assets/best-places.webp',
+                        title: 'Places For a Road Trip',
+                        text: 'December 26, 2022'
+                    },
+                    {
+                        img: '../../src/assets/anime-fashion.webp',
+                        title: 'Fashion Trend Now A Days',
+                        text: 'December 26, 2022'
+                    },
+                    {
+                        img: '../../src/assets/rice-ball.webp',
+                        title: 'Hygenic Receipe To Prepare Rice',
+                        text: 'December 26, 2022'
+                    },
+                    ]
                 },
                 {
                     icon: '<i class="fa-solid fa-house-chimney"></i>',

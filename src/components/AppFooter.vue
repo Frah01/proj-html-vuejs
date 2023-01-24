@@ -1,5 +1,5 @@
 <script>
-import AppSupport from './AppSupport.vue'
+import AppSupport from './elements/AppSupport.vue'
 export default {
     components:{
         AppSupport,
@@ -75,7 +75,6 @@ export default {
 </template>
 <style lang="scss" scoped>
     footer {
-        height: 300px;
         background-color: rgba(191,29,46,255);
     }
 </style>

@@ -15,7 +15,7 @@ export default {
             <h5>GET STARTED</h5>
             <ul>
                 <li v-for="(item,index) in contactStarted" :key="index">
-                    <h5>{{item.label}}</h5>
+                    <p>{{item.label}}</p>
                 </li>
             </ul>
         </div>
@@ -23,7 +23,7 @@ export default {
             <h5>ABOUT</h5>
             <ul>
                 <li v-for="(item,index) in contactAbout" :key="index">
-                    <h5>{{item.label}}</h5>
+                    <p>{{item.label}}</p>
                 </li>
             </ul>
         </div>
@@ -31,7 +31,7 @@ export default {
             <h5>FEATURES</h5>
             <ul>
                 <li v-for="(item,index) in contactFeatures" :key="index">
-                    <h5>{{item.label}}</h5>
+                    <p>{{item.label}}</p>
                 </li>
             </ul>
         </div>
@@ -39,7 +39,7 @@ export default {
             <h5>QUICK LINKS</h5>
             <ul>
                 <li v-for="(item,index) in contactLinks" :key="index">
-                    <h5>{{item.label}}</h5>
+                    <p>{{item.label}}</p>
                 </li>
             </ul>
         </div>
@@ -55,7 +55,7 @@ export default {
     <div class="row">
         <div class="col d-flex justify-content-between align-items-center">
             <div >
-                <img class="logo-footer" src="../assets/anime-whitelogo.png" alt="">
+                <img class="logo-footer" src="../../assets/anime-whitelogo.png" alt="">
             </div>
             <div>
                 <a href="">© Anime Tech, Theme by Elsa la pazza</a>
@@ -65,7 +65,7 @@ export default {
    </div>
 </template>
 <style lang="scss" scoped>
-@use '../styles/general.scss' as*;
+@use '../../styles/general.scss' as*;
 
     ul{
         color: white;

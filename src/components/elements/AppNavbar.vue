@@ -17,7 +17,19 @@ export default {
             <div class="col-4">
                 <div class="d-flex justify-content-center align-items-center">
                     <ul>
-                        <li  v-for="(item, index) in menuNavBar" :key="index" >
+                        <li  v-for="(item, index) in menuNavBar" :key="index" :class="item.active ? 'active' : ''">
+                            <!-- <div class="dropdown_">
+                                <div class="dropbtn">
+                                    <a :clas="item.active ? 'active' : ''" >
+                                    
+                                    </a>
+                                </div>
+                                    <div class="dropdown-content">
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
+                                </div> -->
                             <a href="">
                                 {{item.label}}
                             </a>
@@ -34,7 +46,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../styles/general.scss' as*;
+@use '../../styles/general.scss' as*;
     ul{
         list-style-type: none;
         display: flex;
