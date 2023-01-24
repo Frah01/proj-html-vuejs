@@ -9,7 +9,7 @@ export default {
 }
 </script>
 <template lang="">
-    <div class="container p-2">
+    <div class="container py-5">
         <div class="row">
             <div class="col-3">
                 <div id="background-img-1" class="card backg-img border-0 rounded mt-2 d-flex justify-content-end">
