@@ -10,12 +10,12 @@ export default {
         return{
             menuNavBar: [
                 {
-                    icon: `<i class="fa-solid fa-house-chimney"></i>`,
+                    icon: `fa-solid fa-house-chimney`,
                     label: 'Home',
                     
                 },
                 {
-                    icon: '<i class="fa-solid fa-house-chimney"></i>',
+                    icon: 'fa-solid fa-suitcase',
                     label: 'Lifestyle',
                     details: [
                     {
@@ -36,7 +36,7 @@ export default {
                     ]
                 },
                 {
-                    icon: '<i class="fa-solid fa-house-chimney"></i>',
+                    icon: 'fa-solid fa-book-open-reader',
                     label: 'Stories',
                     details: [
                     {
@@ -57,11 +57,11 @@ export default {
                     ]
                 },
                 {
-                    icon: '<i class="fa-solid fa-house-chimney"></i>',
+                    icon: 'fa-solid fa-book',
                     label: 'Pages'
                 },
                 {
-                    icon: '<i class="fa-solid fa-house-chimney"></i>',
+                    icon: 'fa-solid fa-user',
                     label: 'About us'
                 },
 

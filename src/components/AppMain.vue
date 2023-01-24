@@ -5,7 +5,7 @@ export default {
     components:{
         AppCard,
         AppCardSS,
-    }
+    },
 }
 </script>
 <template lang="">
