@@ -17,10 +17,10 @@ export default {
                             <i class="fa-sharp fa-solid fa-chevron-left text-white"></i>
                             <i class="fa-sharp fa-solid fa-chevron-right text-white"></i>
                         </div>
-                        <i class="fa-brands fa-facebook fa-2x text-white"></i>
-                        <i class="fa-brands fa-twitter fa-2x text-white"></i>
-                        <i class="fa-brands fa-instagram fa-2x text-white"></i>
-                        <i class="fa-brands fa-youtube fa-2x text-white"></i>
+                        <i class="fa-brands fa-facebook fa-2x "></i>
+                        <i class="fa-brands fa-twitter fa-2x "></i>
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                        <i class="fa-brands fa-youtube fa-2x"></i>
                     </div>
                 </div>
             </div>
@@ -52,8 +52,20 @@ export default {
             margin-left: 5px;
         }
 
+        .fa-sharp{
+            margin-left: 10px; 
+            color: white;
+            &:hover{
+            filter: invert(100%);
+        }
+        }
+
         .fa-brands{
-            margin-left: 10px;
+        margin-left: 10px; 
+        color: white;
+        &:hover{
+            filter: invert(100%);
+        }
         }
 
         .anime-logo{

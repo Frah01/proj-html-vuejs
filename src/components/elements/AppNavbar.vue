@@ -120,6 +120,7 @@ export default {
         }
     }
 
+    
 
  .search-box{
   width: fit-content;
