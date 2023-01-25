@@ -15,7 +15,7 @@ export default {
 }
 </script>
 <template lang="">
-    <carousel :itemsToShow="4" :wrapAround="true">
+    <carousel :autoplay="2500" :itemsToShow="4" :wrapAround="true">
         <slide v-for="(item,index) in thumbCards" :key="index" class="mx-2">
             <div class="d-flex flex-column card border-0" >
                 <img class="mb-3 img-fluid" :src="thumbCards[index].img" alt="#">
