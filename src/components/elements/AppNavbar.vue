@@ -31,11 +31,21 @@ export default {
                                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet, eaque doloremque iste consequatur delectus esse fuga. Omnis consequuntur minus cum voluptatem sed facilis quo sint harum tempora doloremque. Saepe?</p>
                                     </div>
                                     <div class="d-flex justify-content-center">
+                                        <img  class="img-fluid img-w mx-1" src="../../assets/best-places.webp" alt="">
                                         <img  class="img-fluid img-w mx-1" src="../../assets/visit-france.webp" alt="">
-                                        <img  class="img-fluid img-w mx-1" src="../../assets/visit-france.webp" alt="">
-                                        <img  class="img-fluid img-w mx-1" src="../../assets/visit-france.webp" alt="">
+                                        <img  class="img-fluid img-w mx-1" src="../../assets/photographers-mistakes.webp" alt="">
                                     </div>
-                                    
+                                    <div class="d-flex flex-column align-items-center mt-3 h4">
+                                        <p>Sun - Sat : 9:00 AM - 18:00 PM</p>
+                                        <p>contact@domain.com</p>
+                                        <p>(+82) 8123 456 789</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <i class="fa-brands fa-facebook fa-2x text-danger"></i>
+                                        <i class="fa-brands fa-twitter fa-2x text-danger"></i>
+                                        <i class="fa-brands fa-instagram fa-2x text-danger"></i>
+                                        <i class="fa-brands fa-youtube fa-2x text-danger"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
