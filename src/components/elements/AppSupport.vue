@@ -52,7 +52,12 @@ export default {
         list-style-type: none;
         padding: 0;
         line-height: 35px;
+
+        
     }
+    li{
+            cursor: pointer;
+        }
 
     h5{
         margin-left: 0;
