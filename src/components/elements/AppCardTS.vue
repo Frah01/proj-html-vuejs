@@ -69,6 +69,10 @@ export default {
         aspect-ratio: 400 / 205;
         background-size: contain;
         filter: brightness(60%);
+
+        &:hover{
+            filter: brightness(100%);
+        }
         .content{
             color: white;
             padding: 10px;
@@ -97,6 +101,9 @@ export default {
         aspect-ratio: 177 / 119;
         background-size: contain;
         filter: brightness(60%);
+        &:hover{
+            filter: brightness(100%);
+        }
         .content{
             padding: 10px;
             text-align: center;

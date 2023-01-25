@@ -15,8 +15,8 @@ export default {
 }
 </script>
 <template lang="">
-    <carousel :itemsToShow="3" :wrapAround="true">
-        <slide v-for="(item,index) in thumbCards" :key="index" class="cards">
+    <carousel :itemsToShow="4" :wrapAround="true">
+        <slide v-for="(item,index) in thumbCards" :key="index" class="mx-2">
             <div class="d-flex flex-column" >
                 <img class="mb-3 img-fluid" :src="thumbCards[index].img" alt="#">
                 <div class="">
@@ -33,8 +33,6 @@ export default {
 </template>
 <style lang="scss">
 
-    .cards{
-    }
 
     img{
         border-radius: 3px 3px 0px 0px,

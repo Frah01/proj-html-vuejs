@@ -65,6 +65,11 @@ export default {
         filter: brightness(60%);
         text-align: center;
         color: white;
+        transition: 0.5s linear;
+
+        &:hover{
+            filter: brightness(100%);
+        }
     }
 
     #background-img-1{
