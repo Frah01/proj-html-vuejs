@@ -4,6 +4,7 @@ import AppCardSS from './elements/AppCardSS.vue'
 import AppCardTS from './elements/AppCardTS.vue'
 import AppBanner from './elements/AppBanner.vue'
 import AppYoutube from './elements/AppYoutube.vue'
+import AppLS from './elements/AppLS.vue'
 export default {
     components:{
         AppCard,
@@ -11,6 +12,7 @@ export default {
         AppCardTS,
         AppBanner,
         AppYoutube,
+        AppLS,
     },
 }
 </script>
@@ -21,6 +23,7 @@ export default {
         <AppCardTS />
         <AppBanner />
         <AppYoutube />
+        <AppLS />
     </main>
 </template>
 

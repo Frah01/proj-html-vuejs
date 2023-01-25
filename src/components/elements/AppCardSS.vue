@@ -51,7 +51,6 @@ export default {
                         <h5>{{store.info[3].title}}</h5>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -62,6 +61,7 @@ export default {
     .backg-img{
         aspect-ratio: 500 / 333;
         background-size: contain;
+        background-repeat: no-repeat;
         filter: brightness(60%);
         text-align: center;
         color: white;
