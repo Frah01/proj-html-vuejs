@@ -1,21 +1,40 @@
 <script>
-
+import { defineComponent } from 'vue'
+import { Carousel, Pagination, Slide, Navigation } from 'vue3-carousel'
+import 'vue3-carousel/dist/carousel.css'
 export default {
+    components:{
+        Carousel,
+        Slide,
+        Pagination,
+        Navigation,
+    },
     props: {
         thumbCards: Array,
     }
 }
 </script>
 <template lang="">
-    <div v-for="(item,index) in thumbCards" class="card container_card m-3 rounded-1 border-0 text-center">
-        <img class="mb-3" :src="thumbCards[index].img" alt="#">
-        <div class="">
-            <h5 class="text-uppercase">{{ thumbCards[index].title }}</h5>
-            <h6>{{  thumbCards[index].text }}</h6>
-        </div>
-    </div>
+    <carousel :itemsToShow="3" :wrapAround="true">
+        <slide v-for="(item,index) in thumbCards" :key="index" class="cards">
+            <div class="d-flex flex-column" >
+                <img class="mb-3 img-fluid" :src="thumbCards[index].img" alt="#">
+                <div class="">
+                    <h5 class="text-uppercase">{{ thumbCards[index].title }}</h5>
+                    <h6>{{  thumbCards[index].text }}</h6>
+                </div>
+            </div>
+        </slide>
+        <template #addons>
+            <Navigation />
+        </template>
+    </carousel>
+    
 </template>
 <style lang="scss">
+
+    .cards{
+    }
 
     img{
         border-radius: 3px 3px 0px 0px,

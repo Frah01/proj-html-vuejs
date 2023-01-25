@@ -68,8 +68,8 @@ export default {
 </script>
 <template lang="">
   <div class="thumb" >
-    <div class="container_card d-flex">
-            <div class="cards d-flex m-2">
+    <div class="container_card ">
+            <div class="cards m-2">
                     <AppCardVF :thumbCards="thumbCards" />
                 </div>
             </div>
@@ -77,9 +77,7 @@ export default {
 </template>
 <style lang="scss" scoped>
 
-.container_card{
-    overflow-x: scroll;
-}
+
 
 .thumb {
     background-color: rgba(243,243,243,255);
