@@ -46,5 +46,9 @@ export const store = reactive({
             title: 'The best Succes Stories',
             text: 'December 26, 2022'
         },
-    ]
+    ],
+
+    advertising: {
+        banner: '../../src/assets/page-banner-1.webp'
+    }
 })

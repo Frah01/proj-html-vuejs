@@ -60,21 +60,20 @@ export default {
 <template lang="">
   <div class="thumb" >
     <div class="container_card d-flex">
-            <div class="cards m-2" v-for="(item, index) in thumbCards" :key="index">
-                    <AppCardVF :url="item.img" :title="item.title" :text="item.text" />
+            <div class="cards d-flex m-2">
+                    <AppCardVF :thumbCards="thumbCards" />
                 </div>
             </div>
   </div>
 </template>
 <style lang="scss" scoped>
 
-.cards{
-    width: calc(100% / 4 - 14px);
+.container_card{
+    overflow-x: scroll;
 }
 
 .thumb {
     background-color: rgba(243,243,243,255);
-    overflow-x: scroll;
     padding: 1em;
 
     h4 {
