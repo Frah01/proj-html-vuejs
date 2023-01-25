@@ -22,6 +22,7 @@ export default {
         <AppCardSS />
         <AppCardTS />
         <AppBanner />
+        <AppCard />
         <AppYoutube />
         <AppLS />
     </main>
