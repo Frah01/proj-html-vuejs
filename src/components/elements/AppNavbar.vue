@@ -36,7 +36,7 @@ export default {
                                     <div class="d-flex justify-content-center">
                                         <img class="img-fluid" src="../../assets/anime-logo.webp" alt="">
                                     </div>
-                                    <div>
+                                    <div class="mt-5">
                                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet, eaque doloremque iste consequatur delectus esse fuga. Omnis consequuntur minus cum voluptatem sed facilis quo sint harum tempora doloremque. Saepe?</p>
                                     </div>
                                     <div class="d-flex justify-content-center">

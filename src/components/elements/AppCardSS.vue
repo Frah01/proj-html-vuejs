@@ -17,6 +17,7 @@ export default {
                         {{store.info[1].demo}}
                         {{store.info[1].text}}
                         <h5>{{store.info[1].title}}</h5>
+                        <p class="categoria" >{{store.info[1].category}}</p>
                     </div>
                 </div>
                 <div id="background-img-2" class="card backg-img border-0 rounded mt-1 d-flex justify-content-end" >
@@ -24,6 +25,7 @@ export default {
                         {{store.info[7].demo}}
                         {{store.info[7].text}}
                         <h5>{{store.info[7].title}}</h5>
+                        <p class="categoria" >{{store.info[7].category}}</p>
                     </div>
                 </div>
             </div>
@@ -33,6 +35,7 @@ export default {
                         {{store.info[0].demo}}
                         {{store.info[0].text}}
                         <h5>{{store.info[0].title}}</h5>
+                        <p class="categoria" >{{store.info[0].category}}</p>
                     </div>
                 </div>
             </div>
@@ -42,6 +45,7 @@ export default {
                         {{store.info[6].demo}}
                         {{store.info[6].text}}
                         <h5>{{store.info[6].title}}</h5>
+                        <p class="categoria" >{{store.info[6].category}}</p>
                     </div>
                 </div>
                 <div id="background-img-5" class="card backg-img border-0 rounded mt-1 d-flex justify-content-end ">
@@ -49,6 +53,7 @@ export default {
                         {{store.info[3].demo}}
                         {{store.info[3].text}}
                         <h5>{{store.info[3].title}}</h5>
+                        <p class="categoria" >{{store.info[3].category}}</p>
                     </div>
                 </div>
             </div>
@@ -57,6 +62,7 @@ export default {
 </template>
 <style lang="scss" scoped>
     @use '../../styles/general.scss' as*;
+    @use '../../styles/partials/mixins.scss' as*;
 
     .backg-img{
         aspect-ratio: 500 / 333;
@@ -70,6 +76,12 @@ export default {
         &:hover{
             filter: brightness(100%);
         }
+    }
+
+    .categoria{
+        color: black;
+        @include categoria;
+
     }
 
     #background-img-1{

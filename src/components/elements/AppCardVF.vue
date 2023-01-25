@@ -22,7 +22,9 @@ export default {
                 <div class="">
                     <h5 class="text-uppercase">{{ thumbCards[index].title }}</h5>
                     <h6>{{  thumbCards[index].text }}</h6>
+                    <p class="categoria" >{{thumbCards[index].category}}</p>
                 </div>
+                
             </div>
         </slide>
         <template #addons>
@@ -37,13 +39,24 @@ export default {
         cursor: pointer;
         h5, h6{
         font-weight: bold;
+        position: relative;
         &:hover{
             color: rgba(191,29,46,255);
         }
     }
     }
 
-    
+    .categoria{
+        position: absolute;
+        top: 5%;
+        right: 40%;
+        translate: transform(-10%, -50%);
+        background-color: white;
+        padding: 5px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        
+    }
 
     img{
         border-radius: 3px 3px 0px 0px,

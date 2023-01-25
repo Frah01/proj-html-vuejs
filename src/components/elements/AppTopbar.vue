@@ -60,9 +60,11 @@ export default {
         }
         }
 
+
         .fa-brands{
         margin-left: 10px; 
         color: white;
+        transition: 0.2s linear;
         &:hover{
             filter: invert(100%);
         }

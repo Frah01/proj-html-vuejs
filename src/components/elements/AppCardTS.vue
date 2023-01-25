@@ -29,6 +29,8 @@ export default {
                     <div class="content">
                         <h6>{{store.info[8].demo}} {{store.info[8].text}}</h6>
                         <h5>{{store.info[8].title}}</h5>
+                        <p class="categoria" >{{store.info[8].category}}</p>
+
                     </div>
                  </div>
             
@@ -40,6 +42,7 @@ export default {
             <div class="content">
                     <h6>{{store.info[7].demo}} {{store.info[7].text}}</h6>
                     <h5>{{store.info[7].title}}</h5>
+                    <p class="categoria" >{{store.info[7].category}}</p>
                 </div>
             </div>
             
@@ -49,6 +52,7 @@ export default {
                  <div class="content">
                     <h6>{{store.info[0].demo}} {{store.info[0].text}}</h6>
                     <h5>{{store.info[0].title}}</h5>
+                    <p class="categoria" >{{store.info[0].category}}</p>
                 </div>
             </div>
             <hr>
@@ -57,6 +61,7 @@ export default {
                  <div class="content">
                     <h6>{{store.info[6].demo}} {{store.info[6].text}}</h6>
                     <h5>{{store.info[6].title}}</h5>
+                    <p class="categoria" >{{store.info[6].category}}</p>
                 </div>
             </div>
         </div>
@@ -65,6 +70,7 @@ export default {
 </template>
 <style lang="scss" scoped>
 @use '../../styles/general.scss' as*;
+@use '../../styles/partials/mixins.scss' as*;
 .backg-img{
         aspect-ratio: 400 / 205;
         background-size: contain;
@@ -81,6 +87,11 @@ export default {
             }
         }
     }
+    .categoria{
+        color: black;
+        @include categoria;
+    }
+    
 
     .content{
         width: 177px;
@@ -97,6 +108,7 @@ export default {
         }
     }
 .backg-img-sm{
+        position: relative;
         width: 177px;
         aspect-ratio: 177 / 119;
         background-size: contain;
