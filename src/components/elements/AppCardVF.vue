@@ -33,6 +33,12 @@ export default {
 </template>
 <style lang="scss">
 
+    h5, h6{
+        font-weight: bold;
+        &:hover{
+            color: rgba(191,29,46,255);
+        }
+    }
 
     img{
         border-radius: 3px 3px 0px 0px,

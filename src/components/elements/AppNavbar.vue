@@ -83,10 +83,21 @@ export default {
         margin: 0;
         li{
           padding: 5px;
+          font-weight: bold;
         }
         a{
             text-decoration: none;
             color: black;
+
+            &:hover{
+                color: rgba(191,29,46,255);
+            }
+        }
+    }
+
+    .fa-bars, .fa-magnifying-glass{
+        &:hover{
+            color: rgba(191,29,46,255);
         }
     }
 

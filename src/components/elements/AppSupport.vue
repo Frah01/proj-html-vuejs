@@ -58,7 +58,7 @@ export default {
                 <img class="logo-footer" src="../../assets/anime-whitelogo.png" alt="">
             </div>
             <div>
-                <a href="">© Anime Tech, Theme by Elsa la pazza</a>
+                <a href="">© Anime Tech, Theme by Fra</a>
             </div>
         </div>
     </div>
