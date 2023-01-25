@@ -11,7 +11,7 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-8">
-                    <ul class="d-flex">
+                    <ul class="d-flex justify-content-around">
                         <li class="mx-3" v-for="(item,index) in contatti " :key="index">{{item.title}}
                             <ul>
                                 <li v-for="(item,index) in item.label" :key="index" >{{item}}</li>
