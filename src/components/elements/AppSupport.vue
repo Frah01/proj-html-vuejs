@@ -1,55 +1,35 @@
 <script>
 export default {
     props:{
-        contactStarted : Array,
-        contactAbout: Array,
-        contactFeatures: Array,
-        contactLinks: Array,
+        contatti: Array,
     }
 }
 </script>
 <template lang="">
     <div class="container p-3" >
     <div class="row" >
-        <div class="col-2" >
-            <h5>GET STARTED</h5>
-            <ul>
-                <li v-for="(item,index) in contactStarted" :key="index">
-                    <p>{{item.label}}</p>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <ul class="d-flex">
+                        <li class="mx-3" v-for="(item,index) in contatti " :key="index">{{item.title}}
+                            <ul>
+                                <li v-for="(item,index) in item.label" :key="index" >{{item}}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4" >
+                    <div class="newslatter d-flex flex-column text-center" >
+                        <h5>SUBSCRIBE TO NEWSLATTER</h5>
+                        <input placeholder="Email" type="email" class="form-control ">
+                        <button class="btn btn-dark mt-2">SUBSCRIBE</button>
+                    </div>
         </div>
-        <div class="col-2" >
-            <h5>ABOUT</h5>
-            <ul>
-                <li v-for="(item,index) in contactAbout" :key="index">
-                    <p>{{item.label}}</p>
-                </li>
-            </ul>
-        </div>
-        <div class="col-2" >
-            <h5>FEATURES</h5>
-            <ul>
-                <li v-for="(item,index) in contactFeatures" :key="index">
-                    <p>{{item.label}}</p>
-                </li>
-            </ul>
-        </div>
-        <div class="col-2" >
-            <h5>QUICK LINKS</h5>
-            <ul>
-                <li v-for="(item,index) in contactLinks" :key="index">
-                    <p>{{item.label}}</p>
-                </li>
-            </ul>
-        </div>
-        <div class="col-4" >
-            <div class="newslatter d-flex flex-column text-center" >
-                <h5>SUBSCRIBE TO NEWSLATTER</h5>
-                <input placeholder="Email" type="email" class="form-control ">
-                <button class="btn btn-dark mt-2">SUBSCRIBE</button>
             </div>
         </div>
+        
+        
     </div>
     <hr class="text-white" >
     <div class="row">
@@ -71,6 +51,7 @@ export default {
         color: white;
         list-style-type: none;
         padding: 0;
+        line-height: 35px;
     }
 
     h5{

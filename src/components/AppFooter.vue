@@ -6,70 +6,52 @@ export default {
     },
     data(){
         return{
-            contactStarted: [
-                {
-                    label: 'Resources'
+            contatti: [
+                { 
+                    title: 'Get started',
+                    label: [
+                    'Resources',
+                    'Tutorials',
+                    'Examples',
+                    'Docs'
+                    ]
                 },
                 {
-                    label: 'Tutorials'
+                    title: 'About',
+                    label: [
+                    'Stories',
+                    'Community',
+                    'Blog',
+                    'Brand Assets'
+                    ]
                 },
                 {
-                    label: 'Examples'
+                    title: 'Features',
+                    label: [
+                    'Overview',
+                    'Design',
+                    'Code',
+                    'Collaborate'
+                    ]
                 },
                 {
-                    label: 'Docs'
+                    title: 'Quick Links',
+                    label: [
+                    'Stories',
+                    'Community',
+                    'Blog',
+                    'Brand Assets'
+                    ]
                 },
-            ],
-            contactAbout: [
-                {
-                    label: 'Stories'
-                },
-                {
-                    label: 'Community'
-                },
-                {
-                    label: 'Blog'
-                },
-                {
-                    label: 'Brand Assets'
-                },
-            ],
-            contactFeatures: [
-                {
-                    label: 'Overview'
-                },
-                {
-                    label: 'Design'
-                },
-                {
-                    label: 'Code'
-                },
-                {
-                    label: 'Collaborate'
-                },
-            ],
-            contactLinks : [
-                {
-                    label: 'Stories'
-                },
-                {
-                    label: 'Community'
-                },
-                {
-                    label: 'Blog'
-                },
-                {
-                    label: 'Brand Assets'
-                },
-            ],
-            
+                
+            ]
         }
     }
 }
 </script>
 <template lang="">
     <footer>
-        <AppSupport :contactStarted="contactStarted" :contactAbout="contactAbout" :contactFeatures="contactFeatures" :contactLinks="contactLinks" />
+        <AppSupport :contatti="contatti" />
     </footer>
   
 </template>
