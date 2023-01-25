@@ -27,8 +27,8 @@ export default {
         <div class="col-8">
                  <div id="background-img-1" class="backg-img  rounded d-flex align-items-end mt-1" >
                     <div class="content">
-                        <h6>{{store.info[7].demo}} {{store.info[7].text}}</h6>
-                        <h5>{{store.info[7].title}}</h5>
+                        <h6>{{store.info[8].demo}} {{store.info[8].text}}</h6>
+                        <h5>{{store.info[8].title}}</h5>
                     </div>
                  </div>
             
@@ -113,7 +113,7 @@ export default {
         background-image: url('../../assets/success-story.webp');
     }
     #background-img-2{
-        background-image: url('../../assets/best-places.webp');
+        background-image: url('../../assets/travel-alone.webp');
        
 
     }
@@ -121,7 +121,7 @@ export default {
         background-image: url('../../assets/best-places.webp');
     }
     #background-img-4{
-        background-image: url('../../assets/success-story.webp');
+        background-image: url('../../assets/visit-france.webp');
         
     }
 </style>
